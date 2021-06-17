@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,8 @@
 		2D34AA8D2670DA9D00C0D7C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34AA8C2670DA9D00C0D7C8 /* ContentView.swift */; };
 		2D34AA8F2670DA9D00C0D7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D34AA8E2670DA9D00C0D7C8 /* Assets.xcassets */; };
 		2D34AA922670DA9D00C0D7C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D34AA912670DA9D00C0D7C8 /* Preview Assets.xcassets */; };
+		2D4E6E442678DA4000BB01B8 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6E432678DA4000BB01B8 /* Registration.swift */; };
+		2DF1B23926737720004D8431 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1B23826737720004D8431 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		2D34AA8E2670DA9D00C0D7C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D34AA912670DA9D00C0D7C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D34AA932670DA9D00C0D7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4E6E432678DA4000BB01B8 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		2DF1B23826737720004D8431 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		2D34AA892670DA9D00C0D7C8 /* Version */ = {
 			isa = PBXGroup;
 			children = (
+				2D4E6E432678DA4000BB01B8 /* Registration.swift */,
 				2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */,
 				2D34AA8C2670DA9D00C0D7C8 /* ContentView.swift */,
 				2D34AA8E2670DA9D00C0D7C8 /* Assets.xcassets */,
 				2D34AA932670DA9D00C0D7C8 /* Info.plist */,
 				2D34AA902670DA9D00C0D7C8 /* Preview Content */,
+				2DF1B23826737720004D8431 /* Login.swift */,
 			);
 			path = Version;
 			sourceTree = "<group>";
@@ -104,7 +110,7 @@
 				};
 			};
 			buildConfigurationList = 2D34AA822670DA9D00C0D7C8 /* Build configuration list for PBXProject "Version" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D4E6E442678DA4000BB01B8 /* Registration.swift in Sources */,
+				2DF1B23926737720004D8431 /* Login.swift in Sources */,
 				2D34AA8D2670DA9D00C0D7C8 /* ContentView.swift in Sources */,
 				2D34AA8B2670DA9D00C0D7C8 /* VersionApp.swift in Sources */,
 			);
