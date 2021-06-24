@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D0DB7F726833D4F0040364C /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DB7F626833D4F0040364C /* ResetPassword.swift */; };
 		2D2AEDAC267CB10900D05630 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AEDAB267CB10900D05630 /* Settings.swift */; };
 		2D34AA8B2670DA9D00C0D7C8 /* VersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */; };
 		2D34AA8D2670DA9D00C0D7C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34AA8C2670DA9D00C0D7C8 /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D0DB7F626833D4F0040364C /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 		2D2AEDAB267CB10900D05630 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		2D34AA872670DA9D00C0D7C8 /* Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Version.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionApp.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				2D34AA902670DA9D00C0D7C8 /* Preview Content */,
 				2DF1B23826737720004D8431 /* Login.swift */,
 				2D2AEDAB267CB10900D05630 /* Settings.swift */,
+				2D0DB7F626833D4F0040364C /* ResetPassword.swift */,
 			);
 			path = Version;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D0DB7F726833D4F0040364C /* ResetPassword.swift in Sources */,
 				2D4E6E442678DA4000BB01B8 /* Registration.swift in Sources */,
 				2DF1B23926737720004D8431 /* Login.swift in Sources */,
 				2D34AA8D2670DA9D00C0D7C8 /* ContentView.swift in Sources */,
