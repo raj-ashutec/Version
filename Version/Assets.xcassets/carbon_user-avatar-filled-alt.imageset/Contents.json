@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "carbon_user-avatar-filled-alt.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "carbon_user-avatar-filled-alt-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "carbon_user-avatar-filled-alt-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
