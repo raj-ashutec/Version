@@ -13,7 +13,8 @@ struct Settings: View {
             Spacer().frame(height: 80)
             HStack{
                 VStack (alignment: .leading, spacing: 0){
-                    Text("Settings").font(.system(size: 26)).bold()
+                    Text("Settings")
+                        .font(Font.custom("Calibri Bold", size: 28))
                         .frame(maxWidth:.infinity, alignment: .leading)
                         .padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                 }
@@ -29,6 +30,7 @@ struct Settings: View {
             
             VStack{
                 Text("Personal Info")
+                    .font(Font.custom("Calibri Regular", size: 19))
                     .fontWeight(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
                     .foregroundColor(Color.pink).frame(maxWidth:.infinity,alignment: .leading)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
@@ -40,13 +42,16 @@ struct Settings: View {
                     }.padding(EdgeInsets(top: 05, leading: 0, bottom: 05, trailing: 20))
                     VStack{
                         Text("Your Profile")
-                            .font(.system(size: 16)).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 17))
+                            .frame(maxWidth:.infinity,alignment: .leading)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                         Text("04/12/19")
-                            .font(.system(size: 12)).fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 12))
+                            .fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
                     }
                     Text("Option")
-                        .font(.system(size: 14)).frame(maxWidth:.infinity,alignment: .trailing)
+                        .font(Font.custom("Calibri Regular", size: 15))
+                        .frame(maxWidth:.infinity,alignment: .trailing)
                         .foregroundColor(Color("launchScreenBackground"))
                         .padding(EdgeInsets(top: -20, leading: 0, bottom: 0, trailing: 0))
                     
@@ -60,13 +65,16 @@ struct Settings: View {
                     }.padding(EdgeInsets(top: 05, leading: 0, bottom: 05, trailing: 20))
                     VStack{
                         Text("Fund Transfer")
-                            .font(.system(size: 16)).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 17))
+                            .frame(maxWidth:.infinity,alignment: .leading)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                         Text("04/12/19")
-                            .font(.system(size: 12)).fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 12))
+                            .fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
                     }
                     Text("Option")
-                        .font(.system(size: 14)).frame(maxWidth:.infinity,alignment: .trailing)
+                        .font(Font.custom("Calibri Regular", size: 15))
+                        .frame(maxWidth:.infinity,alignment: .trailing)
                         .foregroundColor(Color.blue)
                         .padding(EdgeInsets(top: -20, leading: 0, bottom: 0, trailing: 0))
                     
@@ -80,13 +88,16 @@ struct Settings: View {
                     }.padding(EdgeInsets(top: 05, leading: 0, bottom: 05, trailing: 20))
                     VStack{
                         Text("Account Details")
-                            .font(.system(size: 16)).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 17))
+                            .frame(maxWidth:.infinity,alignment: .leading)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                         Text("04/12/19")
-                            .font(.system(size: 12)).fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 12))
+                            .fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
                     }
                     Text("Option")
-                        .font(.system(size: 14)).frame(maxWidth:.infinity,alignment: .trailing)
+                        .font(Font.custom("Calibri Regular", size: 15))
+                        .frame(maxWidth:.infinity,alignment: .trailing)
                         .foregroundColor(Color("launchScreenBackground"))
                         .padding(EdgeInsets(top: -20, leading: 0, bottom: 0, trailing: 0))
                     
@@ -100,13 +111,16 @@ struct Settings: View {
                     }.padding(EdgeInsets(top: 05, leading: 0, bottom: 05, trailing: 20))
                     VStack{
                         Text("Investment")
-                            .font(.system(size: 16)).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 17))
+                            .frame(maxWidth:.infinity,alignment: .leading)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                         Text("04/12/19")
-                            .font(.system(size: 12)).fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 12))
+                            .fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
                     }
                     Text("Option")
-                        .font(.system(size: 14)).frame(maxWidth:.infinity,alignment: .trailing)
+                        .font(Font.custom("Calibri Regular", size: 15))
+                        .frame(maxWidth:.infinity,alignment: .trailing)
                         .foregroundColor(Color.blue)
                         .padding(EdgeInsets(top: -20, leading: 0, bottom: 0, trailing: 0))
                     
@@ -119,6 +133,7 @@ struct Settings: View {
             
             VStack{
                 Text("Security")
+                    .font(Font.custom("Calibri Regular", size: 19))
                     .fontWeight(/*@START_MENU_TOKEN@*/.medium/*@END_MENU_TOKEN@*/)
                     .foregroundColor(Color.pink).frame(maxWidth:.infinity,alignment: .leading)
                     .padding(EdgeInsets(top: 0, leading: 0, bottom: 20, trailing: 0))
@@ -130,13 +145,16 @@ struct Settings: View {
                     }.padding(EdgeInsets(top: 05, leading: 0, bottom: 05, trailing: 20))
                     VStack{
                         Text("Privacy Policy")
-                            .font(.system(size: 16)).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 17))
+                            .frame(maxWidth:.infinity,alignment: .leading)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                         Text("04/12/19")
-                            .font(.system(size: 12)).fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 12))
+                            .fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
                     }
                     Text("Option")
-                        .font(.system(size: 14)).frame(maxWidth:.infinity,alignment: .trailing)
+                        .font(Font.custom("Calibri Regular", size: 15))
+                        .frame(maxWidth:.infinity,alignment: .trailing)
                         .foregroundColor(Color("launchScreenBackground"))
                         .padding(EdgeInsets(top: -20, leading: 0, bottom: 0, trailing: 0))
                     
@@ -150,13 +168,16 @@ struct Settings: View {
                     }.padding(EdgeInsets(top: 05, leading: 0, bottom: 05, trailing: 20))
                     VStack{
                         Text("ResetPassword")
-                            .font(.system(size: 16)).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 17))
+                            .frame(maxWidth:.infinity,alignment: .leading)
                             .padding(EdgeInsets(top: 0, leading: 0, bottom: 1, trailing: 0))
                         Text("12/02/20")
-                            .font(.system(size: 12)).fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
+                            .font(Font.custom("Calibri Regular", size: 12))
+                            .fontWeight(.light).frame(maxWidth:.infinity,alignment: .leading)
                     }
                     Text("Option")
-                        .font(.system(size: 14)).frame(maxWidth:.infinity,alignment: .trailing)
+                        .font(Font.custom("Calibri Regular", size: 15))
+                        .frame(maxWidth:.infinity,alignment: .trailing)
                         .foregroundColor(Color.blue)
                         .padding(EdgeInsets(top: -20, leading: 0, bottom: 0, trailing: 0))
                     

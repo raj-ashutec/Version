@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		2D0DB7F726833D4F0040364C /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0DB7F626833D4F0040364C /* ResetPassword.swift */; };
+		2D0F0AE1268C790200651BA2 /* Finance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0F0AE0268C790200651BA2 /* Finance.swift */; };
+		2D1683B82685DD4000592728 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1683B72685DD4000592728 /* Profile.swift */; };
 		2D2AEDAC267CB10900D05630 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2AEDAB267CB10900D05630 /* Settings.swift */; };
 		2D34AA8B2670DA9D00C0D7C8 /* VersionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */; };
 		2D34AA8D2670DA9D00C0D7C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D34AA8C2670DA9D00C0D7C8 /* ContentView.swift */; };
 		2D34AA8F2670DA9D00C0D7C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D34AA8E2670DA9D00C0D7C8 /* Assets.xcassets */; };
 		2D34AA922670DA9D00C0D7C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D34AA912670DA9D00C0D7C8 /* Preview Assets.xcassets */; };
 		2D4E6E442678DA4000BB01B8 /* Registration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4E6E432678DA4000BB01B8 /* Registration.swift */; };
+		2D5EE70E2684954300A6DF3B /* Success.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5EE70D2684954300A6DF3B /* Success.swift */; };
+		2D769152268B0D3100453E88 /* Calibri Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D769151268B0D3100453E88 /* Calibri Bold Italic.ttf */; };
+		2D769155268B0D3D00453E88 /* Calibri Bold.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 2D769154268B0D3D00453E88 /* Calibri Bold.TTF */; };
+		2D769158268B0D4700453E88 /* Calibri Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D769157268B0D4700453E88 /* Calibri Italic.ttf */; };
+		2D76915B268B0D4E00453E88 /* Calibri Light Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D76915A268B0D4E00453E88 /* Calibri Light Italic.ttf */; };
+		2D76915E268B0D6100453E88 /* Calibri Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D76915D268B0D6100453E88 /* Calibri Light.ttf */; };
+		2D769161268B0D6700453E88 /* Calibri Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D769160268B0D6700453E88 /* Calibri Regular.ttf */; };
 		2DF1B23926737720004D8431 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1B23826737720004D8431 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2D0DB7F626833D4F0040364C /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
+		2D0F0AE0268C790200651BA2 /* Finance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Finance.swift; sourceTree = "<group>"; };
+		2D1683B72685DD4000592728 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		2D2AEDAB267CB10900D05630 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		2D34AA872670DA9D00C0D7C8 /* Version.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Version.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersionApp.swift; sourceTree = "<group>"; };
@@ -27,6 +38,13 @@
 		2D34AA912670DA9D00C0D7C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D34AA932670DA9D00C0D7C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D4E6E432678DA4000BB01B8 /* Registration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registration.swift; sourceTree = "<group>"; };
+		2D5EE70D2684954300A6DF3B /* Success.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Success.swift; sourceTree = "<group>"; };
+		2D769151268B0D3100453E88 /* Calibri Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold Italic.ttf"; sourceTree = "<group>"; };
+		2D769154268B0D3D00453E88 /* Calibri Bold.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Bold.TTF"; sourceTree = "<group>"; };
+		2D769157268B0D4700453E88 /* Calibri Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Italic.ttf"; sourceTree = "<group>"; };
+		2D76915A268B0D4E00453E88 /* Calibri Light Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Light Italic.ttf"; sourceTree = "<group>"; };
+		2D76915D268B0D6100453E88 /* Calibri Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Light.ttf"; sourceTree = "<group>"; };
+		2D769160268B0D6700453E88 /* Calibri Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Calibri Regular.ttf"; sourceTree = "<group>"; };
 		2DF1B23826737720004D8431 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,15 +78,19 @@
 		2D34AA892670DA9D00C0D7C8 /* Version */ = {
 			isa = PBXGroup;
 			children = (
-				2D4E6E432678DA4000BB01B8 /* Registration.swift */,
-				2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */,
+				2D34AA902670DA9D00C0D7C8 /* Preview Content */,
+				2D769150268B0CBB00453E88 /* Font */,
 				2D34AA8C2670DA9D00C0D7C8 /* ContentView.swift */,
+				2D34AA8A2670DA9D00C0D7C8 /* VersionApp.swift */,
+				2DF1B23826737720004D8431 /* Login.swift */,
+				2D4E6E432678DA4000BB01B8 /* Registration.swift */,
+				2D1683B72685DD4000592728 /* Profile.swift */,
+				2D0F0AE0268C790200651BA2 /* Finance.swift */,
+				2D2AEDAB267CB10900D05630 /* Settings.swift */,
+				2D5EE70D2684954300A6DF3B /* Success.swift */,
+				2D0DB7F626833D4F0040364C /* ResetPassword.swift */,
 				2D34AA8E2670DA9D00C0D7C8 /* Assets.xcassets */,
 				2D34AA932670DA9D00C0D7C8 /* Info.plist */,
-				2D34AA902670DA9D00C0D7C8 /* Preview Content */,
-				2DF1B23826737720004D8431 /* Login.swift */,
-				2D2AEDAB267CB10900D05630 /* Settings.swift */,
-				2D0DB7F626833D4F0040364C /* ResetPassword.swift */,
 			);
 			path = Version;
 			sourceTree = "<group>";
@@ -79,6 +101,19 @@
 				2D34AA912670DA9D00C0D7C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D769150268B0CBB00453E88 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				2D769160268B0D6700453E88 /* Calibri Regular.ttf */,
+				2D76915D268B0D6100453E88 /* Calibri Light.ttf */,
+				2D76915A268B0D4E00453E88 /* Calibri Light Italic.ttf */,
+				2D769157268B0D4700453E88 /* Calibri Italic.ttf */,
+				2D769154268B0D3D00453E88 /* Calibri Bold.TTF */,
+				2D769151268B0D3100453E88 /* Calibri Bold Italic.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +132,8 @@
 			dependencies = (
 			);
 			name = Version;
+			packageProductDependencies = (
+			);
 			productName = Version;
 			productReference = 2D34AA872670DA9D00C0D7C8 /* Version.app */;
 			productType = "com.apple.product-type.application";
@@ -124,6 +161,8 @@
 				Base,
 			);
 			mainGroup = 2D34AA7E2670DA9D00C0D7C8;
+			packageReferences = (
+			);
 			productRefGroup = 2D34AA882670DA9D00C0D7C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +177,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D76915B268B0D4E00453E88 /* Calibri Light Italic.ttf in Resources */,
+				2D769152268B0D3100453E88 /* Calibri Bold Italic.ttf in Resources */,
+				2D76915E268B0D6100453E88 /* Calibri Light.ttf in Resources */,
 				2D34AA922670DA9D00C0D7C8 /* Preview Assets.xcassets in Resources */,
 				2D34AA8F2670DA9D00C0D7C8 /* Assets.xcassets in Resources */,
+				2D769158268B0D4700453E88 /* Calibri Italic.ttf in Resources */,
+				2D769155268B0D3D00453E88 /* Calibri Bold.TTF in Resources */,
+				2D769161268B0D6700453E88 /* Calibri Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,10 +196,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D0DB7F726833D4F0040364C /* ResetPassword.swift in Sources */,
+				2D1683B82685DD4000592728 /* Profile.swift in Sources */,
 				2D4E6E442678DA4000BB01B8 /* Registration.swift in Sources */,
 				2DF1B23926737720004D8431 /* Login.swift in Sources */,
 				2D34AA8D2670DA9D00C0D7C8 /* ContentView.swift in Sources */,
+				2D5EE70E2684954300A6DF3B /* Success.swift in Sources */,
 				2D34AA8B2670DA9D00C0D7C8 /* VersionApp.swift in Sources */,
+				2D0F0AE1268C790200651BA2 /* Finance.swift in Sources */,
 				2D2AEDAC267CB10900D05630 /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

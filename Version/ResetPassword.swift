@@ -18,15 +18,19 @@ struct ResetPassword: View {
                 Spacer().frame(height: 100)
 
                 VStack() {
-                    Text("Reset Password").font(.system(size: 28)).bold()
+                    Text("Reset Password")
+                        .font(Font.custom("Calibri Bold", size: 28))
                         .frame(maxWidth:.infinity, alignment: .leading).padding(EdgeInsets(top: 0, leading: 30, bottom: 0, trailing: 0))
                 }
                 VStack{
                     VStack(alignment:.leading) {
-                        Text("Your Customer ID").font(.system(size: 12)).frame(maxWidth:.infinity, alignment: .leading).padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
+                        Text("Your Customer ID")
+                            .font(Font.custom("Calibri Regular", size: 14))
+                            .frame(maxWidth:.infinity, alignment: .leading).padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                         HStack(){
                             Image("id-icon").resizable().scaledToFit().frame(width: 15, height: 15)
                             TextField("12 Digit ID", text: $Id)
+                                .font(Font.custom("Calibri Regular", size: 16))
                         }
                         Divider().frame(maxWidth:.infinity).padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
                     }.frame(maxWidth:.infinity).padding(EdgeInsets(top: 0, leading: 30, bottom: 10, trailing: 30))
@@ -37,9 +41,10 @@ struct ResetPassword: View {
                     HStack {
                         Text("Create New Password")
                             .fontWeight(.semibold)
-                            .font(.system(size: 20)).padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 0))
+                            .font(Font.custom("Calibri Regular", size: 21))
+                            .padding(EdgeInsets(top: 0, leading: 15, bottom: 0, trailing: 0))
                         Spacer()
-                        Image("arrow-icon").resizable().scaledToFit().frame(width: 15, height: 15).padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 15))
+                        Image("arrow-icon").resizable().scaledToFit().frame(width: 16, height: 16).padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 15))
                     }.frame(minWidth: 0, maxWidth: .infinity)
                     .padding(EdgeInsets(top: 20, leading: 30, bottom: 20, trailing: 30))
                     .background(Color(red: 254 / 255, green: 53 / 255, blue: 103 / 255))
@@ -50,8 +55,11 @@ struct ResetPassword: View {
                 Spacer()
                 
                 HStack {
-                    Text("Don't have an account?").font(.system(size: 16))
-                    Text("Request for access").font(.system(size: 16)).foregroundColor(Color(red: 254 / 255, green: 53 / 255, blue: 103 / 255))
+                    Text("Don't have an account?")
+                        .font(Font.custom("Calibri Regular", size: 18))
+                    Text("Request for access")
+                        .font(Font.custom("Calibri Regular", size: 18))
+                        .foregroundColor(Color(red: 254 / 255, green: 53 / 255, blue: 103 / 255))
                 }
                 .padding(EdgeInsets(top: 0, leading: 30, bottom: 40, trailing: 30))
                 
