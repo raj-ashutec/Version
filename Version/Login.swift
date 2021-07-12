@@ -9,6 +9,8 @@ import SwiftUI
 
 struct Login:View {
     @State var Id: String=""
+    @State var Name: String=""
+
     var body: some View {
         NavigationView{
             VStack {
@@ -36,6 +38,7 @@ struct Login:View {
                             HStack(){
                                 Image("id-icon").resizable().scaledToFit().frame(width: 15, height: 15)
                                 TextField("12 Digit ID", text: $Id)
+                                    .keyboardType(.numberPad)
                                     .font(Font.custom("Calibri Regular", size: 16))
                                 
                             }
@@ -49,7 +52,7 @@ struct Login:View {
                                 .padding(EdgeInsets(top: 0, leading: 0, bottom: 10, trailing: 0))
                             HStack(){
                                 Image("password-icon").resizable().scaledToFit().frame(width: 15, height: 15)
-                                TextField("Your password", text: $Id)
+                                TextField("Your password", text: $Name)
                                     .font(Font.custom("Calibri Regular", size: 16))
                             }
                             Divider().frame(maxWidth:.infinity).padding(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
@@ -78,6 +81,7 @@ struct Login:View {
                     HStack {
                         Text("Don't have an account?")
                             .font(Font.custom("Calibri Regular", size: 16))
+                        
                         NavigationLink(destination: Registration()){
                             Text("Request for access")
                                 .font(Font.custom("Calibri Regular", size: 16))
